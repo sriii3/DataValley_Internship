@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Information Form</title>
+</head>
+<body>
+    <h1>Customer Information Form</h1>
+    <form>
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" placeholder="Enter your name"><br><br>
+
+        <label for="phone">Contact Phone No:</label><br>
+        <input type="tel" id="phone" name="phone" placeholder="Enter your phone number"><br><br>
+
+        <label for="days">Preferred Days of Purchasing:</label><br>
+        
+    <input type="checkbox" id="weekday" name="preferredDays" value="weekday">
+
+    <label for="weekday">Weekdays</label>
+
+    <br>
+
+    <input type="checkbox" id="weekend" name="preferredDays" value="weekend">
+
+    <label for="weekend">Weekends</label>
+
+    <br><br>
+
+        <label for="item">Favourite Item:</label><br>
+        <select id="item" name="item">
+            <option value="">Select</option>
+            <option value="electronics">Electronics</option>
+            <option value="clothing">Clothing</option>
+            <option value="groceries">Groceries</option>
+            <option value="home">Home appliances</option>
+            <option value="other">Other</option>
+        </select><br><br>
+
+        <label for="suggestions">Suggestions:</label><br>
+        <textarea id="suggestions" name="suggestions" rows="4" cols="50" placeholder="Enter your suggestions"></textarea><br><br>
+
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+    </form>
+</body>
+</html>
